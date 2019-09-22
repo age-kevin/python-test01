@@ -52,5 +52,9 @@ myList.extend('kotlin')
 myList.insert(3, 'C#')
 del myList[2]
 del myList[4: 6]
+myList[2: 4] = ['js']
+myList[5: 11] = ['kotlin']
+myList.reverse()
 print(myList)
+print(myList.index('java'))
 
