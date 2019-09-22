@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86fcacd6-af7b-480d-91ef-a473c30fb26f" name="Default Changelist" comment="" />
+    <list default="true" id="86fcacd6-af7b-480d-91ef-a473c30fb26f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../python-test01/.idea/python-test01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../python-test01/.idea/python-test01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-test01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python-test01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-test01/com.age.python/Test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-test01/com.age.python/Test02.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.age.python/Test02.py">
+        <entry file="file://$PROJECT_DIR$/../python-test01/com.age.python/Test02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="497">
+              <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -30,6 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../python-test01" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,6 +42,7 @@
         <option value="$PROJECT_DIR$/com.age.python.Test01.py" />
         <option value="$PROJECT_DIR$/com.age.python/Test01.py" />
         <option value="$PROJECT_DIR$/com.age.python/test02.py" />
+        <option value="$PROJECT_DIR$/../python-test01/com.age.python/Test02.py" />
       </list>
     </option>
   </component>
@@ -46,6 +52,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -56,12 +63,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="test01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test01" type="462c0819:PsiDirectoryNode" />
+              <item name="python-test01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-test01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="test01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test01" type="462c0819:PsiDirectoryNode" />
+              <item name="python-test01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-test01" type="462c0819:PsiDirectoryNode" />
               <item name="com.age.python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -72,8 +79,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/git/Git/cmd/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="D:/git/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python-test01" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="python-test01" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test02">
+  <component name="RunManager" selected="Python.Test02">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="python-test01" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +163,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com.age.python/Test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-test01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-test01/com.age.python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python-test01/com.age.python/Test02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,6 +298,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test02" />
         <item itemvalue="Python.test02" />
         <item itemvalue="Python.Test01" />
       </list>
@@ -278,23 +316,22 @@
       <updated>1568986696873</updated>
       <workItem from="1568986698998" duration="5477000" />
       <workItem from="1569031498869" duration="4251000" />
-      <workItem from="1569061451723" duration="1555000" />
+      <workItem from="1569061451723" duration="4217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11283000" />
+    <option name="totallyTimeSpent" value="13945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,21 +354,22 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test01$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1569154347153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.age.python" />
+    <SUITE FILE_PATH="coverage/python_test01$Test02.coverage" NAME="Test02 Coverage Results" MODIFIED="1569156651572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python-test01/com.age.python" />
     <SUITE FILE_PATH="coverage/test01$Test01.coverage" NAME="Test01 Coverage Results" MODIFIED="1569033064658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com.age.python" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/com.age.python.Test01.py" />
-    <entry file="file://$PROJECT_DIR$/com.age.python/Test01.py">
+    <entry file="file://$PROJECT_DIR$/../python-test01/com.age.python/Test01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.age.python/Test02.py">
+    <entry file="file://$PROJECT_DIR$/../python-test01/com.age.python/Test02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="497">
+          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
         </state>
       </provider>
     </entry>

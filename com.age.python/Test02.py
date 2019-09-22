@@ -39,10 +39,18 @@
 # print(myTuple)
 # print(type(myTuple))
 
-myList = [23, 'python', 3.4, 'java']
-a, b, *c = myList
-print(a)
-print(b)
-print(c)
+# myList = [23, 'python', 3.4, 'java']
+# a, b, *c = myList
+# print(a)
+# print(b)
+# print(c)
 
+myList = ['python', 'java']
+myList.append(tuple(range(3, 6)))
+myList.extend(range(20, 25))
+myList.extend('kotlin')
+myList.insert(3, 'C#')
+del myList[2]
+del myList[4: 6]
+print(myList)
 
