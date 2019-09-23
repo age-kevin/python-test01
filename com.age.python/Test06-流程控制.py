@@ -76,18 +76,43 @@
 
 # for-in循环遍历字符串
 
-s = 'python'
+# s = 'python'
 # s(序列)有几个元素，for-in循环就重复几次，循环计数器就自动、依次等于每个元素
-for c in s:
-    print(c)
+# for c in s:
+#     print(c)
+#
+# myTuple = (20, 30, 40, 50)
+# for i in myTuple:
+#     print(i)
+#
+# myData = {'java': 59, 'python': 60, 'kotlin': 50, 'js': 30}
+# for key in myData.keys():
+#     print(key)
+#
+# for key, value in myData.items():
+#     print(key, value)
 
-myTuple = (20, 30, 40, 50)
-for i in myTuple:
-    print(i)
+# 嵌套循环
+# for i in range(10):
+#     j = 0
+#     while j < 20:
+#         print('i: %d, j: %d' % (i, j))
+#         j += 1
 
-myData = {'java': 59, 'python': 60, 'kotlin': 50, 'js': 30}
-for key in myData.keys():
-    print(key)
+# 列表推导式:控制表达式循环几次 ['表达式' for i in range(10)]
+# 例子：计算1-100的总和
+# myList = sum([i for i in range(1, 101)])
+# print(myList)
 
-for key, value in myData.items():
-    print(key, value)
+# break
+# for i in range(100):
+#     print(i)
+#     if i > 5:
+#         break
+
+# continue:当条件符合触发continue时，忽略continue后的语句
+# for i in range(100):
+# #     print(i)
+# #     if i > 5:
+# #         continue
+# #     print('循环第%d次' % i)

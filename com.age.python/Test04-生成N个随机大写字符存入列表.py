@@ -1,5 +1,5 @@
 # import random
-# import numpy
+import numpy
 
 NUM = 10
 
@@ -16,4 +16,8 @@ NUM = 10
 # result = [chr(random.randint(65, 90)) for i in range(NUM)]
 # print(result)
 
+# 使用numpy模块一次生成N个随机数，生成一个矩阵，相当于一个包含NUM个随机数的列表
+result = [chr(i) for i in numpy.random.randint(65, 90, [NUM, 1])]
+
+print(result)
 
